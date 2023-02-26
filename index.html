@@ -197,7 +197,7 @@
 
     <section class="contact" id="contact">
         <h1 class="font-semibold underline text-center p-24 underline-offset-8 text-5xl text-white" style="text-decoration-color: #F4FA1A;">Get in Touch</h1>
-        <form action="POST" id="contactform" class="">
+        <form  id="contactform" class="">
             <div class="text-white flex flex-col items-center justify-center w-full">
                 <div class="w-full flex items-center justify-center gap-16 py-10">
                     <input name="name" type="text" class="w-1/4 bg-transparent border-b-2 text-xl p-4" placeholder="Name">
@@ -213,7 +213,7 @@
                 </div>
                 <div class="p-10">
                 <div class="flex p-10 text-black submit-btn w-64 h-20 items-center justify-center p-10">
-                    <button type="submit" class=" rounded font-bold w-64 h-20 text-2xl">Submit Now</button>
+                    <button type="submit" onclick="sendMail()" class=" rounded font-bold w-64 h-20 text-2xl">Submit Now</button>
                 </div></div>
             </div>
                 
@@ -226,12 +226,13 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="firebase.js"></script>
+
     <script src="index.js"></script>
     <script src="mail.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> type="text/javascript">
+        
         (function(){
-           emailjs.init("YOUR_PUBLIC_KEY");
+           emailjs.init("rVBOnUHRNlqhGSeWE");
         })();
      </script>
     <script>
