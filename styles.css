@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 
 body{
@@ -108,3 +108,26 @@ body{
     height: 100%;
     object-fit: cover;
   }
+  input,textarea{
+    border-color: #4F4F4F;
+    resize: none;
+   
+  }
+  input:focus{
+    border: transparent;
+  }
+  input::placeholder{
+    color: #4F4F4F;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .contact{
+    background-color: #171717;
+  }
+ .submit-btn{
+    background-color: #F4FA1A;
+ }
+
+ footer{
+    color: #4F4F4F;
+    background-color: #171717;
+ }
