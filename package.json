@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "aos": "^2.3.4",
     "firebase": "^9.17.1",
     "swiper": "^9.0.5"
